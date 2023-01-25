@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Web</title>
+
+    <!-- Css de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- CSS Propios  -->
+    <link rel="stylesheet" href="./css/index.css">
+
+    <!-- Fuentes Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <!-- fontawesone -->
+    <script src="https://kit.fontawesome.com/dc9c54560c.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <!-- Menu traido de Bootstrap -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand"  id="titulo" href="#">Curriculum Vitae</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto md-auto ms-auto" id="menu">
+                  <li class="nav-item">
+                    <a class="nav-link" id="info" aria-current="page" href="#"><i class="fa-solid fa-user"></i>Información Personal</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="experiencia" href="#"><i class="fa-solid fa-address-book"></i>Experiencia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="habilidades" href="#"><i class="fa-solid fa-house-laptop"></i>Habilidades</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+      <!-- Cuerpo de los datos dinamicos -->
+      <div class="container">
+        <div class="card" >
+          <img src="./foto/Foto1.jpg" class="card-img-top" id="foto" alt="No hay Foto disponible">
+          
+          <div class="card-body">
+            <h5 class="card-title" id="tituloEncabezado"></h5>
+      
+          </div>
+          <ul class="list-group list-group-flush" id="datosLista">
+           
+            
+          </ul>
+          
+        </div>
+      </div>
+
+      
+    </section>
+    <footer class="container-fluid" id="footer">
+        <div class="row">
+            <h5>Alumno</h5>
+        </div>
+        <div class="row">
+            <h6>Jonah Erardo Bonetti</h6>
+        </div>
+      
+
+    </footer>
+    
+
+    <!-- Js de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <!-- Js Propios  -->
+    <script src="./js/funciones.js"></script>
+
+</body>
+</html>

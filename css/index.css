@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    background-color: rgb(212, 210, 208);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+    padding-bottom: 1em;
+}
+
+section{
+    padding-bottom: 1em;
+    
+}
+
+.navbar{
+    background-color: #0d7bca;
+    
+}
+
+i{
+    margin: 0.5em;
+}
+
+.card{
+    background-color: #168BCB ;
+    
+}
+.card-body{
+    
+    text-shadow: 2px 2px 8px rgb(82, 77, 77);
+    text-align: center;
+    
+}
+
+#tituloEncabezado{
+    font-size: 1.8em;
+    font-weight: bold;
+    color: blue;
+}
+
+#footer{
+    background-color: rgb(165, 165, 165);
+    
+    padding: 1em 0;
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/* tamaño del titulo segun dispositivo */
+
+/* Celular */
+#titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#info{
+    color: #f1ed16;
+ }
+
+#experiencia{
+    color: #34f034;
+ }
+
+#habilidades{
+    color: #a70483;
+ }
+
+/* Tablet */
+@media screen and (min-width: 425px) {
+    #titulo{
+        font-size: 25px;
+       
+    }
+
+    #info{
+        font-size: 20px;
+    }
+
+    #experiencia{
+        font-size: 20px;
+    }
+
+    #habilidades{
+        font-size: 20px;
+    }
+
+
+}
+
+/* Laptop 1024*/
+@media screen and (min-width: 768px) {
+    #titulo{
+        font-size: 30px;
+       
+    }
+
+    #info{
+        font-size: 20px;
+    }
+
+    #experiencia{
+        font-size: 20px;
+    }
+
+    #habilidades{
+        font-size: 20px;
+    }
+
+}
+
+/* Laptop 1440*/
+@media screen and (min-width: 1024px) {
+ 
+
+    #titulo{
+        font-size: 30px;
+    }
+
+    #info{
+        font-size: 22px;
+    }
+
+    #experiencia{
+        font-size: 22px;
+    }
+
+    #habilidades{
+        font-size: 22px;
+    }
+    
+}
+
+
+/* Smart*/
+@media screen and (min-width: 2560px) {
+ 
+
+    #titulo{
+        font-size: 35px;
+    }
+
+    #info{
+        font-size: 30px;
+    }
+
+    #experiencia{
+        font-size: 30px;
+    }
+
+    #habilidades{
+        font-size: 30px;
+    }
+
+
+}
+
+
+/* card */
+
+.card{
+    margin-top: 10%;
+}
+
+
+#foto{
+    width: 20%;
+    height: 20%;
+    margin-top: 5%;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
